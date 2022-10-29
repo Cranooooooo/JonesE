@@ -7,7 +7,7 @@ Hyper-parameters for reproducing the reported results are provided in the ```tra
 Requirements:
 Pytorch 1.4+
 
-```CUDA_VISIBLE_DEVICES=0 python3 train_DualE_dataset.py```
+```CUDA_VISIBLE_DEVICES=0 python3 train_BoxE_WN18RR.py```
 
 ## Hyperparameters
 
