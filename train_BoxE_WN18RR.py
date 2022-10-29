@@ -5,9 +5,9 @@ con = config.Config()
 con.set_in_path("./benchmarks/WN18RR/")
 con.set_dataset_name("WN18RR")
 con.set_model_name("BoxE")
-con.set_start_from("./checkpoint/BoxE-499.ckpt")
+con.set_start_from(None) # "./checkpoint/BoxE-499.ckpt"
 con.set_work_threads(8)
-con.set_train_times(4) # 4000
+con.set_train_times(4000) # 4000
 con.set_nbatches(20)  #10
 con.set_alpha(.35) # 0.035
 con.set_bern(1)
@@ -27,4 +27,4 @@ con.set_test_triple(True)
 con.init()
 con.set_train_model(BoxE)
 con.train()
-os.environ["CUDA_VISIBLE_DEVICES"]="3"
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
