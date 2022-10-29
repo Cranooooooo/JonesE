@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://user_cl@10.4.4.22:22/home/user_cl/anaconda3/envs/KG_Embed/bin/python3.8">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/user_cl/workplace_cl/KG_Embed/DualE-master" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://shaoqian@10.0.104.128:22/home/shaoqian/anaconda3/envs/gail_bkup/bin/python3.7" />
+      </list>
+    </list>
+  </component>
+</project>
